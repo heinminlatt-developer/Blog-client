@@ -1,0 +1,88 @@
+/* Topbar */
+.topbarContainer{
+    font-weight: 700;
+
+}
+
+.topbarList{
+   width: 100%;
+    display: flex;
+    justify-content:end;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+.bodyUpContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+
+/* UpBody */
+.BodyUpImg {
+ display: block;
+  margin: 0 auto;
+  }
+  
+  .bodyUpCap {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333; 
+    text-align: center;
+    margin-top: 10px; 
+  }
+  .bodyUpCap p {
+    font-weight: bold;
+    color: #007bff; 
+  }
+  .bodyUpCap-B {
+    font-size: 15px;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .bodyUpCap-B p {
+    font-size: 15px; /* Adjusted font size for the p element within bodyUpCap-B */
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+  /* BodyImage */
+  .image-container{
+    display: flex;
+    align-items: center;
+
+  }
+
+
+  
+  
+/* Footer */
+/* Apply styling to the container of the images */
+.bodyImagesContainer {
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the container vertically */
+    max-width: 1200px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container */
+}
+
+/* Apply styling to each column */
+.imageColumn {
+    flex: 1; /* Equal width for both columns */
+}
+
+/* Apply styling to the images */
+.imageColumn img {
+    width: 100%; /* Make images fill the entire width of the column */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add some spacing between images */
+    border-radius: 8px; /* Add rounded corners to images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow to images */
+}
